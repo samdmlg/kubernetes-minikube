@@ -378,10 +378,17 @@ kubectl delete services myservice
 ```
 kubectl delete deployment myservice
 ```
-## My Docker Image
+# Kubernetes Minikube - Samuel
+
+## Docker Image
+
+Image disponible sur Docker Hub :
 
 docker pull samdmlg/myservice:1
 
-Used in Kubernetes with:
+Lien Docker Hub :
+https://hub.docker.com/r/samdmlg/myservice
+
+## Déploiement Kubernetes
 
 kubectl create deployment myservice --image=samdmlg/myservice:1
