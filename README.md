@@ -378,4 +378,10 @@ kubectl delete services myservice
 ```
 kubectl delete deployment myservice
 ```
+## My Docker Image
 
+docker pull samdmlg/myservice:1
+
+Used in Kubernetes with:
+
+kubectl create deployment myservice --image=samdmlg/myservice:1
